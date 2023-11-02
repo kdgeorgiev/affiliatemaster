@@ -1,0 +1,12 @@
+.certregform label { display: block; float: left; width: 140px; }
+.certregform input[type='text'], .certregform input[type='password'],
+.certregform input[type='email'] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+.certregform input[type='text']:focus, .certregform input[type='password']:focus,
+.certregform input[type='email']:focus {
+	border-color: #aaa;
+}
