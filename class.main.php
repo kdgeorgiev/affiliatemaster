@@ -558,7 +558,7 @@ function copyToClickBoardcopyToClipboard$pastsku(){
     navigator.clipboard.writeText(content)
         .then(() => {
         console.log('Text copied to clipboard...')
-        alert('Линка е копиран: $url');
+        alert('Линка $url е копиран');
     })
         .catch(err => {
         console.log('Something went wrong', err);
